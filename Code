@@ -1,0 +1,8 @@
+#lists out all the numbers that are multiples of an user's divisor
+
+divisor = int(input("Enter a divisor: "))
+nums = []
+for element in range(int(input("Enter a starting number: ")), int(input("Enter an ending number: "))):
+    if element % int(divisor) == 0:
+         nums.append(element)
+print(nums)
